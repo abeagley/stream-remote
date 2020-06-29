@@ -1,0 +1,42 @@
+body, html, #q-app {
+  background: $dark;
+  color: #FFF;
+
+  &.body-dark {
+    background: $dark;
+    color: #FFF;
+  }
+}
+
+p.page--heading, p.flow--heading {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin: 0 0 1rem;
+  padding: 0;
+  text-align: center;
+}
+
+p.page--sub-heading, p.flow--sub-heading {
+  color: $secondary;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 0 0 2rem;
+  padding: 0;
+  text-align: center;
+}
+
+.flow--container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 1rem 1rem 1rem;
+  position: relative;
+
+  &.is-small {
+    max-width: 550px;
+  }
+}

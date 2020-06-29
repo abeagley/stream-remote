@@ -1,0 +1,42 @@
+.q-table__card {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05) !important;
+  color: #6e6e6e;
+}
+
+.table__title {
+  color: #555555;
+  font-weight: 300;
+}
+
+.table--heading {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  @media screen and (max-width: 553px) {
+    align-items: flex-start;
+    flex-direction: column;
+
+    .q-btn {
+      margin-top: 0.5rem;
+    }
+  }
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      color: #555;
+      font-size: 1.4rem;
+      font-weight: 300;
+    }
+
+    p {
+      color: #888888;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

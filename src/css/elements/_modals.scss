@@ -1,0 +1,35 @@
+.modal--card {
+  min-width: 90vw;
+
+  @media screen and (min-width: 680px) {
+    min-width: 80vw;
+  }
+
+  @media screen and (min-width: 1024px) {
+    min-width: 60vw;
+  }
+
+  @media screen and (min-width: 1400px) {
+    min-width: 40vw;
+  }
+}
+
+.modal--card-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  .text-h6 {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+}
+
+.modal--toolbar {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 0 0;
+  width: 100%;
+}

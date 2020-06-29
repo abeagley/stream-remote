@@ -1,0 +1,80 @@
+/*
+.q-field .q-field__native,
+.q-field .q-field__prefix,
+.q-field .q-field__suffix,
+.q-field .q-field__input {
+  color: $c-input-text;
+}
+
+.q-field .q-field__control::before {
+  border-color: darken(#FAFAFA, 15%);
+  transition: border-color 0.2s linear;
+}
+
+.q-field .q-field__control:hover::before {
+  border-color: darken(#FAFAFA, 30%);
+}
+*/
+.q-field__bottom--animated {
+  display: flex;
+  position: relative;
+  transform: translateY(15%);
+  transition: all 0.2s ease-in-out !important;
+}
+
+.q-field--with-bottom {
+  padding-bottom: 0;
+  transition: all 0.5s ease-in-out !important;
+
+  &.q-field--error, &.q-field--hint {
+    padding-bottom: 18px;
+  }
+}
+
+textarea, .q-textarea.q-field--labeled textarea.q-field__native {
+  resize: none;
+}
+
+.standard-pad-bottom {
+  padding-bottom: 18px;
+}
+/*
+.bg-input {
+  background: $c-input;
+}
+
+.bg-input-text {
+  background: $c-input-text;
+}
+
+.text-input {
+  color: $c-input;
+}
+
+.text-input-text {
+  color: $c-input-text;
+}
+*/
+.bg-off-white {
+  background: #FAFAFA;
+}
+
+.text-off-white {
+  color: #FAFAFA;
+}
+
+.text-standard {
+  color: #6e6e6e;
+}
+
+.text-muted {
+  color: lighten(#6e6e6e, 12%);
+}
+
+.bg-primary-orange {
+  background: #D6751F;
+}
+
+.text-primary-orange {
+  color: #D6751F;
+}
